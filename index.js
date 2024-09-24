@@ -33,13 +33,15 @@ console.log(listaDeViagens);
 
 listaDeViagens.splice(1,2);
 console.log(listaDeViagens);
-var idadeComprador = entrada("qual é o seu nome? ");
+var nomeComprador = entrada("qual é o seu nome? ");
 
 var idadeComprador = entrada("qual é a sua idade? ");
 
 if(idadeComprador < 18){
-  console.log("Não vendemos passagens para menores de 18 anos.")
+  console.log("Não vendemos passagens para menores de 18 anos.");
+console.log(`Ja que sua idade é ${idadeComprador} infelizmente não podemos te vender as passagens`);
 }
 if(idadeComprador >= 18){
    console.log("Compra realizada com sucesso.")
+  console.log(`Ja que sua idade é ${idadeComprador} podemos te vender a passagem parabens!`);
 }
