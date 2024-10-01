@@ -10,12 +10,32 @@ console.log("Olá eu sou " + nomeCompleto + " estamos no ano de " + anoAtual + "
 
 let AnoAtual = 2025;
 let Idade = 17;
-const NomeCompleto = "Ana Julia Meira dos Santos";
+const NomeCompleto = "Kauã ferreira cordeiro";
 const Faculdade = "Administração e Desenvolvimento de sistemas ";
 
 console.log("Olá meu nome é " + NomeCompleto + ", tenho " + Idade + " anos " +  "estamos no ano de " + AnoAtual + " gostaria de fazer faculdade na área de " + Faculdade);
 
 console.log(`oi eu sou a ${nomeCompleto}, tenho ${idade} anos, nasci em ${anoNascimento}, e em ${AnoAtual} eu quero seguir na área de ${Faculdade}`);
+
+const loginCerto = "Kauã";
+const senhaCerta = "12346";
+console.log("=========================");
+console.log("===AGÊNCIAS DE VIAGENS===");
+console.log("=========================");
+console.log("Faça seu login")
+
+var login = entrada("digite seu login: ");
+var senha = entrada("digite sua senha: ");
+
+while(login != loginCerto){
+  console.log("login Incorreto");
+  login = entrada("digite seu login novamente:");
+}
+  while(senha != senhaCerta){
+    console.log("senha Incorreta");
+    login = entrada("digite sua senha novamente:");
+}
+
 
 const listaDeViagens = new Array(
   `Japão`,
