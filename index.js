@@ -33,7 +33,7 @@ while(login != loginCerto){
 }
   while(senha != senhaCerta){
     console.log("senha Incorreta");
-    login = entrada("digite sua senha novamente:");
+    senha = entrada("digite sua senha novamente:");
 }
 
 
